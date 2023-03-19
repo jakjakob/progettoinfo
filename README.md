@@ -1,4 +1,4 @@
 #### [Website](https://informatica.malchow.ch)
 
-Username: prog  
+Username: proginfo. 
 Password: pswprog
