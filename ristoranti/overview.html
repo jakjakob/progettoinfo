@@ -1,25 +1,111 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-    <title> I nostri ristoranti</title>
+    <title>Prova</title>
     <meta charset ="UTF-8">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
 </head>
+
 <body>
-
-    <h1> I nostri ristoranti</h1>
-    <p> <h2>Le nostre numerosi filiali attorno al mondo sono liete di accoglierla</h2>
-        <h3>Le nostre filiali</h3>
-        <ul>
-            <li> <a href="ristmad.html">Madagascar</a> </li>
-            <li> <a href="ristmex.html">Messico</a> </li>
-            <li> <a href="ristnig.html">Nigeria</a> </li>
-            <li> <a href="ristus.html">Stati Uniti D'america</a> </li>
-        </ul>
-    </p>
    
+    <div class="navbar">
+    <a href="../index.html">Home </a>
+    <div class="dropdown">
+        <button class="dropbtn">Le nostre pizze </button>
+        <div class="dropdown-content">
+          <a href="../canab.html">Cannabis</a>
+          <a href="../girasole.html">Girasole</a>
+          <a href="../zucca.html">Zucca</a>
+  
+        </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Ristoranti </button>
+      <div class="dropdown-content">
+        <a href="overview.html">Overview</a>
+        <a href="ristmad.html">Madagascar</a>
+        <a href="ristmex.html">Messico</a>
+        <a href="ristnig.html">Nigeria</a>
+        <a href="ristus.html">Stati Uniti</a>
+      </div>
+    </div> 
+  </div>
 
+  <h1> I nostri ristoranti</h1>
+  <p> <h2>Le nostre numerosi filiali attorno al mondo sono liete di accoglierla</h2>
+      <h3>Le nostre filiali</h3>
+      <ul>
+          <li> <a href="ristmad.html">Madagascar</a> </li>
+          <li> <a href="ristmex.html">Messico</a> </li>
+          <li> <a href="ristnig.html">Nigeria</a> </li>
+          <li> <a href="ristus.html">Stati Uniti D'america</a> </li>
+      </ul>
+  </p>
+  
 </body>
 
 </html>
