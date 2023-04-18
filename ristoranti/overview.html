@@ -67,6 +67,30 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+  transition: transform .5s;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.sottoimm
+{text-align: center;
+  font-size: x-large;
+  color:#333;
+}
+.column:hover {
+  transform: scale(1.1); 
+}
 </style>
 </head>
 
@@ -98,14 +122,35 @@ body {
   <h1> I nostri ristoranti</h1>
   <p> <h2>Le nostre numerosi filiali attorno al mondo sono liete di accoglierla</h2>
       <h3>Le nostre filiali</h3>
-      <ul>
-          <li> <a href="ristmad.html">Madagascar</a> </li>
-          <li> <a href="ristmex.html">Messico</a> </li>
-          <li> <a href="ristnig.html">Nigeria</a> </li>
-          <li> <a href="ristus.html">Stati Uniti D'america</a> </li>
-      </ul>
   </p>
   
+  <div class="row">
+    <a href="ristmad.html">
+      <div class="column">
+        <img src="../immagini/mappaMAD.jpeg" style="width:100%">
+      <div class="sottoimm">I nostri ristoranti in Madagascar </div>
+    </div>
+    </a>
+    <a href="ristmex.html">
+      <div class="column">
+        <img src="../immagini/mappaMEX.jpeg" style="width:100%">
+        <div class= "sottoimm">I nostri ristoranti in Messico</div>
+     </div>
+    </a>
+    <a href="ristnig.html">
+      <div class="column">
+        <img src="../immagini/mappaNIGER.jpeg" style="width:100%">
+        <div class="sottoimm">I nostri ristoranti in Nigeria</div>
+      </div>
+    </a>
+    <a href="ristus.html">
+      <div class="column">
+        <img src="../immagini/mappaUSA.jpeg" style="width:100%">
+        <div class="sottoimm">I nostri ristoranti negli Stati Uniti</div>
+      </div>
+    </a>
+  </div>
+
 </body>
 
 </html>
