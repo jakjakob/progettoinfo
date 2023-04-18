@@ -67,6 +67,30 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  transition: transform .5s;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.sottoimm
+{text-align: center;
+  font-size: x-large;
+  color:#333;
+}
+.column:hover {
+  transform: scale(1.1); 
+}
 </style>
 </head>
 
@@ -95,12 +119,29 @@ body {
     </div> 
   </div>
 
-  <p> <h2>Le nostre pizze</h2></p>
-  <p><a href="girasole.html">Le pizze ai semi di girasole</a></p> 
-  <p><a href="zucca.html">Le nostre pizze ai semi di Zucca</a> </p>
-  <p><a href="canab.html">Le nostre  pizze ai semi di Canapa (presente solo in alcune regioni)</a></p>
-  
-  
+  <p> <h1>Le nostre pizze</h1></p>
+
+  <div class="row">
+    <a href="canab.html">
+      <div class="column">
+        <img src="immagini/semcanapa.jpg" style="width:100%">
+      <div class="sottoimm">Le nostre pizze ai semi di canapa </div>
+    </div>
+    </a>
+    <a href="girasole.html">
+      <div class="column">
+        <img src="immagini/semgirasole.jpg" style="width:100%">
+        <div class= "sottoimm">Le nostre pizze ai semi di girasole</div>
+     </div>
+    </a>
+    <a href="zucca.html">
+      <div class="column">
+        <img src="immagini/semzucca.jpeg" style="width:100%">
+        <div class="sottoimm">Le nostre pizze ai semi di zucca </div>
+      </div>
+    </a>
+  </div>
+
 </body>
 
 </html>
