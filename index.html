@@ -7,7 +7,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
-
+/* da qui per barra navigazione*/
 .navbar {
   overflow: hidden;
   background-color: #333;
@@ -67,6 +67,34 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+/* da qui per bottone scroll top*/
+:root{scroll-behavior:smooth;}
+main {position: relative;}
+
+.scroll-top {
+  position: absolute;
+  top: 120vh;
+  bottom: 2rem;
+  right: 1rem;
+}
+
+.scroll-top__link {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 85vh;
+  text-decoration:none;
+  border-radius: .25rem;
+  background-color: red;
+  padding:1rem;
+  color: white;
+  font-weight:700;
+  opacity:.3;
+}
+
+.scroll-top__link:hover {
+  opacity: initial;
+}
+/*da qui cose specifiche a documento*/
 </style>
 </head>
 
@@ -86,29 +114,47 @@ body {
     <div class="dropdown">
       <button class="dropbtn">Ristoranti </button>
       <div class="dropdown-content">
-        <a href="ristoranti/overview.html">Overview</a>
+        <a href="ristoranti/overview.html">Panoramica</a>
         <a href="ristoranti/ristmad.html">Madagascar</a>
         <a href="ristoranti/ristmex.html">Messico</a>
         <a href="ristoranti/ristnig.html">Nigeria</a>
-        <a href="risotoranti/ristus.html">Stati Uniti</a>
+        <a href="ristoranti/ristus.html">Stati Uniti</a>
       </div>
     </div> 
+    <a href="contatti.html">Contatti e ordinazioni</a>
+    <a href="aboutus.html">Chi siamo</a>
   </div>
 
-  <h1> La pizza ai semi - l'alternativa sana alla Pizza classica</h1>
+<main>
 
-  <h2>Le nostre pizze</h2>
-  <p>
-      Scopra di più sulle nostre sane pizze ai semi di Girasole, ai semi di Zucca o ai semi di Cannabis. Anche disponibili con un impasto integrale.
-      <a href=pizze.html>Scopri di più</a>
-  </p>
+  <img src="immagini/logo.png" style="float:right;width:150px;height:150px;padding-top: 24px;padding-right: 24px;">
 
-  <h2>
-      I nostri ristoranti
-  </h2>
-  I nostri numerosi ristoranti attorno a tutto al mondo sono grati di accoglierla. Le nostre numerose filiali sono presenti in Nigeria, negli Stati Uniti d'America, in Madagascar, e in Messico.
-  <a href="ristoranti/overview.html">Scopri di più</a> </li>
+  <h1>Benvenuti alla nostra catena di ristoranti La Semizza SA</h1>
+  <p>Siamo fieri di offrire pizze gustose e sane, grazie all'aggiunta di semi ai nostri impasti.</p>
   
+  <h2>Le nostre pizze con semi</h2>
+  <p>Abbiamo una vasta selezione di pizze con semi, da quella ai semi di cannabis a quella ai semi di girasole. I semi non solo aggiungono un tocco di croccantezza, ma sono anche ricchi di nutrienti come proteine, fibre e grassi sani.</p>
+  <a href="pizze.html">Scopri di più</a>
+  
+  <h2>Pizza con impasto integrale</h2>
+  <p>Per coloro che cercano un'opzione ancora più sana, offriamo anche pizze con impasto integrale. L'impasto integrale è fatto con farina di grano intero, che è più ricca di nutrienti rispetto alla farina bianca raffinata.</p>
+  <p><a href="pizze.html">Scopri le nostre pizze</a></p>
+
+  <h2>Fatti portare la pizza a casa!</h2>
+  <p>È facile ordinare le nostre pizze via telefono. Basta chiamare <a href="tel:+44-11-7325-7425">+44-11-7325-7425</a> e la collegheremo al ristorante più vicino a te e scegliere la pizza che preferisci. Puoi anche personalizzare la tua pizza aggiungendo i tuoi ingredienti preferiti.</p>
+  
+  <h2>Prova la Pizza ai semi</h2>
+  <p>Se vuoi assaggiare la nostra famosa Pizza ai semi, vieni a trovarci in uno dei nostri ristoranti. Ti garantiamo che non rimarrai deluso!</p>
+  <p><a href="pizze.html">Scopri le nostre pizze</a></p>
+
+  <h2>Trova un ristorante vicino a te</h2>
+  <p>Siamo presenti in <a href="ristoranti/ristmad.html">Madagascar</a>, in <a href="ristoranti/ristmex.html">Messico</a>, in <a href="ristoranti/ristnig.html">Nigeria</a> e negli <a href="ristoranti/ristus.html">Stati Uniti</a> </p>
+  <p><a href="ristoranti/overview.html">Scopri di più</a></p>
+  
+  <div class="scroll-top"> 
+    <a class="scroll-top__link" href="#">Torna in alto</a>
+  </div>
+</main>
 </body>
 
 </html>
