@@ -7,7 +7,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
-
+/* da qui per barra navigazione*/
 .navbar {
   overflow: hidden;
   background-color: #333;
@@ -67,6 +67,34 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+/* da qui per bottone scroll top*/
+:root{scroll-behavior:smooth;}
+main {position: relative;}
+
+.scroll-top {
+  position: absolute;
+  top: 120vh;
+  bottom: 2rem;
+  right: 1rem;
+}
+
+.scroll-top__link {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 85vh;
+  text-decoration:none;
+  border-radius: .25rem;
+  background-color: red;
+  padding:1rem;
+  color: white;
+  font-weight:700;
+  opacity:.3;
+}
+
+.scroll-top__link:hover {
+  opacity: initial;
+}
+/*da qui cose specifiche a documento*/
 </style>
 </head>
 
@@ -86,23 +114,30 @@ body {
     <div class="dropdown">
       <button class="dropbtn">Ristoranti </button>
       <div class="dropdown-content">
-        <a href="ristoranti/overview.html">Overview</a>
+        <a href="ristoranti/overview.html">Panoramica</a>
         <a href="ristoranti/ristmad.html">Madagascar</a>
         <a href="ristoranti/ristmex.html">Messico</a>
         <a href="ristoranti/ristnig.html">Nigeria</a>
-        <a href="risotoranti/ristus.html">Stati Uniti</a>
+        <a href="ristoranti/ristus.html">Stati Uniti</a>
       </div>
     </div> 
+    <a href="contatti.html">Contatti e ordinazioni</a>
+    <a href="aboutus.html">Chi siamo</a>
   </div>
 
-  <h1> Le nostre pizze ai semi di girasole</h1>
-  <p> <h3>Perché la pizza ai semi di Girasole?</h3>
-      Le pizze ai semi di zucca sono una scelta gustosa e salutare per chi ama il sapore della zucca e vuole provare qualcosa di diverso. Queste pizze sono 100% vegane e ricche di fibre, grazie al fondo con farina integrale e fiocchi d’avena. Sono guarnite con spinaci, pomodori marinati, cipolle rosse e formaggio vegano a base di olio di cocco. Inoltre, i semi di zucca aggiungono un tocco croccante e nutriente alla pizza.    
-  </p>
- <p>
-  È possibile provare la Pizza ai semi di zucca a uno dei nostri <a href="ristoranti/overview.html">ristoranti</a>
- </p>
-  
+  <main>
+
+  <h1>Pizza ai semi di zucca</h1>
+  <p>La nostra pizza ai semi di zucca è una scelta perfetta per chi cerca una pizza sana e autunnale. I semi di zucca aggiungono un sapore delicato e sono ricchi di nutrienti e benefici per la salute. Inoltre, puoi scegliere di ordinare la tua pizza con un impasto integrale per un'opzione ancora più salutare!</p>
+  <h2>I benefici dei semi di zucca</h2>
+  <p>I semi di zucca sono una fonte di proteine, fibre, ferro, zinco e magnesio. Inoltre, contengono anche fitosteroli che aiutano a ridurre il colesterolo e i grassi nel sangue.</p>
+  <h2>Ordina la tua pizza ai semi di zucca</h2>
+  <p>Se sei alla ricerca di una pizza sana e stagionale, prova la nostra pizza ai semi di zucca. Ordina online o vieni a trovarci in uno dei nostri ristoranti per una serata gustosa e salutare!</p>
+
+  <div class="scroll-top"> 
+    <a class="scroll-top__link" href="#">Torna in alto</a>
+  </div>
+</main>
 </body>
 
 </html>

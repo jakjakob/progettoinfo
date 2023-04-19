@@ -7,7 +7,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
-
+/* da qui per barra navigazione*/
 .navbar {
   overflow: hidden;
   background-color: #333;
@@ -67,6 +67,34 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+/* da qui per bottone scroll top*/
+:root{scroll-behavior:smooth;}
+main {position: relative;}
+
+.scroll-top {
+  position: absolute;
+  top: 120vh;
+  bottom: 2rem;
+  right: 1rem;
+}
+
+.scroll-top__link {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 85vh;
+  text-decoration:none;
+  border-radius: .25rem;
+  background-color: red;
+  padding:1rem;
+  color: white;
+  font-weight:700;
+  opacity:.3;
+}
+
+.scroll-top__link:hover {
+  opacity: initial;
+}
+/*da qui cose specifiche a documento*/
 </style>
 </head>
 
@@ -86,16 +114,23 @@ body {
     <div class="dropdown">
       <button class="dropbtn">Ristoranti </button>
       <div class="dropdown-content">
-        <a href="overview.html">Overview</a>
+        <a href="overview.html">Panoramica</a>
         <a href="ristmad.html">Madagascar</a>
         <a href="ristmex.html">Messico</a>
         <a href="ristnig.html">Nigeria</a>
         <a href="ristus.html">Stati Uniti</a>
       </div>
     </div> 
+    <a href="../contatti.html">Contatti e ordinazioni</a>
+    <a href="../aboutus.html">Chi siamo</a>
   </div>
 
-
+  <main>
+    testo
+    <div class="scroll-top"> 
+      <a class="scroll-top__link" href="#">Torna in alto</a>
+    </div>
+  </main>
   
 </body>
 
