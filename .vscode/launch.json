@@ -9,7 +9,7 @@
             "type": "msedge",
             "request": "launch",
             "name": "Open index.html",
-            "file": "/Users/jakjakob/Documents/GitHub/progettoinfo/index.html"
+            "file": "index.html"
         }
     ]
 }
