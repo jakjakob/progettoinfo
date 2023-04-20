@@ -1,3 +1,5 @@
-#### [Website](https://informatica.malchow.ch)
+#### [Website (may expire)](https://informatica.malchow.ch)
 
-[Link secondario](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbTY4SmhoZmlNdk1qNHBncnZXTUpvQ3lpakQyZ3xBQ3Jtc0tsVnRZRU9tWE5YaG9DZnhDeFFRZXNTYUFzNThNdEhlN3RjMHNkZjhxaTBsa2tDbjR0WTVOVU8yRV8xRi1nQncyNkVYOXBsY3JybHJucXZlRENuZ0ZhQ3FGSkNqNGd3TnQxRVNpU0pyV1NHSjA4UFZVTQ&q=http%3A%2F%2Finformatica.malchow.ch)
+Disclaimer: All information contained on this website is fictitious and should not be considered true. The website has been created solely as a school project and has no relation to reality. Some parts of the texts on the website may have been generated with the help of Artificial Intelligence. We do not assume any responsibility regarding the authenticity of the information on the website, any external links or any rick roll.
+
+No Copyright
